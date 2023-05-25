@@ -1,0 +1,80 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "ethin",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "ethout",
+				"type": "uint256"
+			}
+		],
+		"name": "testa",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "tokenAddress",
+				"type": "address"
+			}
+		],
+		"name": "approve",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "tokenAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "ethIn",
+				"type": "uint256"
+			}
+		],
+		"name": "checkInternalFee",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "tokenAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "ethIn",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "tolerance",
+				"type": "uint256"
+			}
+		],
+		"name": "tokenToleranceCheck",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	}
+]
